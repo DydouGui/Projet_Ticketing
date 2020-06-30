@@ -1,0 +1,134 @@
+/* Importer la police d'écriture */
+@font-face {
+	font-family: 'Numans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Numans'), 
+		local('Numans-Regular'), 
+		url("https://fonts.gstatic.com/s/numans/v9/SlGRmQmGupYAfH84ZhIh.woff2") format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html, body{
+background-image: url("../Images/index2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+font-family: 'Numans', sans-serif;
+
+}
+
+body{
+min-height: 100%;
+margin-top: 0px;
+margin-bottom: -130px;  equal to footer height 
+}
+
+/* Sous le footer */ 
+body:after{
+	content: "";
+	display: block;
+	height: 130px; /* Hauteur du footer */
+}
+
+.Bouton {
+	border: 0;
+	line-height: 2.5;
+	padding: 0 20px;
+	font-size: 1rem;
+	text-align: center;
+	color: black;
+	border: 1px solid rgba(0, 0, 0, 0.3); /* Bordure - Trait tié - avec 70% Opacité */
+	border-radius: 10px;
+	background-color: rgb(255, 215, 0);
+}
+
+.Bouton:hover{
+	background-color: #ECB500;
+	cursor: pointer; /* Changer le pointeur */
+}
+
+.BoutonImg{
+	background-color: transparent; /* Aucun fond */
+	border: 0px; /* Pas de bordure */
+}
+
+.BoutonImg:hover{
+	cursor: pointer; /* Changer le pointeur */
+}
+
+.centerH {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.centerV {
+	position: absolute;
+	top: 40%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.card {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 400px;
+	word-wrap: break-word;
+	background-color: rgba(255, 255, 255, 0.8); /* white background with 80% opacity */
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 1rem; /* Bord arrondi */ 
+}
+
+.card-header {
+	padding-top: 1.75rem;
+	padding-bottom: 0.25rem;
+	margin-bottom: 0;
+	width: 100%;
+}
+
+.card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card-header + .list-group .list-group-item:first-child {
+  border-top: 0;
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.container{
+	width:100%;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.float-none {
+  float: none !important;
+}
+
+.Gras {
+	font-weight: bold;
+}
+
+input:required {
+	border-width: 1px;
+}
