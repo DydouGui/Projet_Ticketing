@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.TableDashPlan{	
+	background: rgba(255, 255, 255, 0.8); /* white background with 80% opacity */
+	border-radius: 0rem 0rem 1rem 1rem; /* Bord Bas arrondi */
+	width: 1140px; /* Taille du tableau */
+	margin: 0 auto; /* Centrer le tableau */
+	padding-top: 10px; /* Marge intérieure haut */
+	padding-left: 20px; /* Marge intérieure gauche */
+	padding-right: 20px; /* Marge intérieure droite */
+	padding-bottom: 30px; /* Marge intérieure bas */
+}
+
+.TrRow{
+	background-color: rgba(230,230,230, 0.8); /* Couleur de fond */
+	background-clip: border-box; /* Le fond s'étend jusqu'au bord */
+	
+}
+
+.TrRow:nth-child(even) {
+	background-color: rgba(215,215,215, 0.8); /* Couleur de fond */
+}
+
+.TrRow:hover {
+	background-color: lightblue;
+}
+
+.TdCol_1, .TdCol_2, .TdCol_3, .TdCol_5, .TdCol_6 {
+	width: 150px; /* Largeur colonne */
+}
+
+.TdCol_4{
+	width: 350px; /* Largeur colonne */
+}
+
+.TdCol_1, .TdCol_2, .TdCol_3, .TdCol_4, .TdCol_5, .TdCol_6{
+	
+	padding: 0px; /* Marge intérieur */
+}
+
+.RowTicket{
+	height: 50px; /* Hauteur lignes */
+	border-top: 1px solid rgba(0, 0, 0, 0.2); /* Bordure Haut - Trait tié - noir avec 80% d'opacité */
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* Bordure Bas - Trait tié - noir avec 80% d'opacité */
+}
+
+.Arrondi-Gauche{
+	border-radius: 1rem 0rem 0rem 1rem; /* Bord gauche arrondi */
+	border-left: 1px solid rgba(0, 0, 0, 0.2); /* Bordure Gauche - Trait tié - noir avec 80% d'opacité */
+	padding-left: 5px; /* Marge intérieure gauche */
+}
+
+.Arrondi-Droite{
+	border-radius: 0rem 1rem 1rem 0rem; /* Bord droite arrondi */
+	border-right: 1px solid rgba(0, 0, 0, 0.2); /* Bordure Droite - Trait tié - noir avec 80% d'opacité */
+}
+
+#TableDash{
+	border-collapse: separate;
+	border-spacing: 0px 5px; /* La première valeur indique l'espacement horizontal et la seconde le vertical. */
+}
+
+.BoutonImg {
+	position: relative;
+	top: -3.6rem;
+	left: -20rem;
+	font-size: 1.5rem;
+	color: black;
+}

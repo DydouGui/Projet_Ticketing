@@ -1,0 +1,53 @@
+footer{
+	position: fixed;
+	bottom: 0;
+	height: 130px;
+	width: 100%;
+	margin: 0%;
+	padding-top: 10px;
+	background-color: #343c44;
+	color: yellow;
+}
+
+#TableFooter{
+	width: 100%;
+	text-align: center;
+	color: yellow;
+}
+
+.footerfin{
+	
+}
+
+.ImgFooter{
+	text-align: center;
+}
+
+.LienFooter{
+	color: yellow;
+	text-align: left;
+}
+
+.LienFooter:hover{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.Marge{
+	margin-left: center;
+	
+}
+
+.AlignLeft{
+	text-align: left;
+	padding-left: 6em;
+}
+
+.tdFooter{
+	width: 20%;
+}
+
+h5.TableFooter{
+	text-align: left;
+}

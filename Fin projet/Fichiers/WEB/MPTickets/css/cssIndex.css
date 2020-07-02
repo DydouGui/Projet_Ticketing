@@ -1,0 +1,57 @@
+.row {
+    width: 100%; /* Largeur ligne Index */
+    height: 75%; /* Hauteur ligne Index */
+    margin: 0px;
+}
+
+.card-index {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(255, 255, 255, 0.8); /* white background with 80% opacity */
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 1rem; /* Bord arrondi */
+}
+
+.centerTable {
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+}
+
+.TdCol_1, .TdCol_2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+}
+
+.TrRow {
+    background-color: rgba(230,230,230, 0.8); /* Couleur de fond */
+    background-clip: border-box; /* Le fond s'étend jusqu'au bord */
+}
+
+.TrRow:nth-child(even) {
+    background-color: rgba(215,215,215, 0.8); /* Couleur de fond */
+}
+
+.RowTicket {
+    border-top: 1px solid rgba(0, 0, 0, 0.2); /* Bordure Haut - Trait tié - noir avec 80% d'opacité */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* Bordure Bas - Trait tié - noir avec 80% d'opacité */
+}
+
+.Arrondi-Gauche {
+    border-radius: 1rem 0rem 0rem 1rem; /* Bord gauche arrondi */
+    border-left: 1px solid rgba(0, 0, 0, 0.2); /* Bordure Gauche - Trait tié - noir avec 80% d'opacité */
+    padding-left: 5px; /* Marge intérieure gauche */
+}
+
+.Arrondi-Droite {
+    border-radius: 0rem 1rem 1rem 0rem; /* Bord droite arrondi */
+    border-right: 1px solid rgba(0, 0, 0, 0.2); /* Bordure Droite - Trait tié - noir avec 80% d'opacité */
+}
+
+#TableLastTickets {
+    table-layout: fixed; /* taille du tableau manuel */
+    width: 100%; /* Taille total du tableau */
+    border-collapse: separate;
+    border-spacing: 0px 5px; /* La première valeur indique l'espacement horizontal et la seconde le vertical. */
+}

@@ -1,0 +1,13 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: yellow;
+}
+
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover, .nav-item:hover, .dropdown-item:hover {
+    text-decoration: none; /* Aucune décoration de text */
+    font-weight: bold; /* Afficher le text en gras */
+    color: yellow;
+    background-color: inherit; 
+}
+li.dropdown-item{
+    margin-left: 0px;
+}

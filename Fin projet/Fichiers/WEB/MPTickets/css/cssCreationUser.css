@@ -1,0 +1,125 @@
+input{
+	background-color: white; /* Couleur de Fond Blanche pour les Inputs désactivés */
+	color: black; /* Couleur de la police Noir pour les Inputs désactivés */
+	padding-left: 3px; /*Marge intérieure gauche */
+}
+
+.Formulaire{
+	background: rgba(255, 255, 255, 0.8); /* white background with 80% opacity */
+	width: 1000px; /* Largeur du tableau */
+	margin: 0 auto; /* Centrer le tableau */
+	padding-top: 10px; /* Marge intérieure haut */
+	padding-left: 20px; /* Marge intérieure gauche */
+	padding-right: 20px; /* Marge intérieure droite */
+	padding-bottom: 27px; /* Marge intérieure bas */
+}
+
+.TdCol_1, .TdCol_2, .TdCol_3, .TdCol_4{
+	width: 250px; /* Largeur colonne */
+	padding: 0; /* Marge intérieure */
+	padding-bottom: 4px;
+}
+
+.Separation-border-top{
+	padding-top: 20px;
+	border-width: 2px;
+	border-color: black;
+	border-top-style: dashed;
+}
+
+.Separation-border-bottom{
+	padding-bottom: 20px;
+	border-width: 2px;
+	border-color: black;
+	border-bottom-style: dashed;
+}
+
+.Disable{
+	background-color: rgba(220,220,220, 0.3);
+}
+
+.Th_Com, .Td_Com{
+	padding-left: 5px;
+	border-width: 1px;
+	border-color: black;
+	border-bottom-style: solid;
+}
+
+.Com_Date, .Com_Nom{
+	width: 180px;
+}
+
+.Td_Button{
+	width: 250px;
+	text-align: center; /* Centrer les Boutons */
+}
+
+.Manage-Button{
+	width: 192px; /* Taille des boutons */
+	margin-top: 15px; /* Marge HAUT extérieue */
+}
+
+.marge-bottom{
+	padding-bottom: 35px;
+}
+
+.P_Com{
+	margin: 0px; /* Marge extérieue */
+}
+
+#tableForm{
+	table-layout: fixed; /* taille du tableau manuel */
+	width: 1000px; /* Taille total du tableau */
+}
+
+select#Depanneur, select#Departement, select#Service, select#Impact, select#Priorite, #DateProblemeInsert{
+	width: 215px; /* Longueur des listes déroulantes */
+	height: 30px; /* Hauteur des listes déroulantes */
+}
+
+#Categorie{
+	width: 430px; /* Longueur du champ Catégorie */
+	height: 24px; /* Hauteur du champ Catégorie */
+}
+
+#Description, #Table_Com, #Resolution{
+	margin: 0px; /* Marge extérieue */
+	padding: 3px; /*Marge intérieure */
+	border: 1px solid #999; /* Bodure pleine */
+	min-height: 100px; /* Hauteur Minimum */
+	width: 737px; /* Largeur */
+	background-color: white; /* Couleur de Fond */
+	resize : none; /* Interdit de redimensionner le textarea */
+}
+
+#Table_Com, #Table_Button{
+	width: 745px; /* Modifier la Largeur */
+}
+
+#NumTicket{
+	background-color: transparent; /* Aucun fond */
+	border: 0px; /* Pas de bordure */
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.2;
+	color: inherit;
+	font-size: 1.75rem; /* Taille police */
+	outline: 0;
+}
+
+#ImgRefresh{
+	margin-left: 50px;
+}
+
+#ImgRefresh:hover{
+	content: "Raffraichir la page";
+}
+
+#TdImgRefresh{
+	text-align: right;
+}
+
+#TdImgUpdate{
+	text-align: left;
+	vertical-align: top;
+}

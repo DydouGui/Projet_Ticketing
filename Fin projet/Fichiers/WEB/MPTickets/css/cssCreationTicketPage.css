@@ -1,0 +1,210 @@
+input{
+	background-color: white; /* Couleur de Fond Blanche pour les Inputs désactivés */
+	color: black; /* Couleur de la police Noir pour les Inputs désactivés */
+	padding-left: 3px; /*Marge intérieure gauche */
+}
+
+.Formulaire{
+	background: rgba(255, 255, 255, 0.8); /* white background with 80% opacity */
+	width: 1000px; /* Largeur du tableau */
+	margin: 0 auto; /* Centrer le tableau */
+	padding-top: 10px; /* Marge intérieure haut */
+	padding-left: 20px; /* Marge intérieure gauche */
+	padding-right: 20px; /* Marge intérieure droite */
+	padding-bottom: 27px; /* Marge intérieure bas */
+}
+
+.TdCol_1, .TdCol_2, .TdCol_3, .TdCol_4{
+	width: 250px; /* Largeur colonne */
+	padding: 0; /* Marge intérieure */
+	padding-bottom: 4px;
+}
+
+.Separation-border-top{
+	padding-top: 20px;
+	border-width: 2px;
+	border-color: black;
+	border-top-style: dashed;
+}
+
+.Separation-border-bottom{
+	padding-bottom: 20px;
+	border-width: 2px;
+	border-color: black;
+	border-bottom-style: dashed;
+}
+
+.Disable{
+	background-color: rgba(220,220,220, 0.3);
+}
+
+.Th_Com, .Td_Com{
+	padding-left: 5px;
+	border-width: 1px;
+	border-color: black;
+	border-bottom-style: solid;
+}
+
+.Com_Date, .Com_Nom{
+	width: 180px;
+}
+
+.Td_Button{
+	width: 250px;
+	text-align: center; /* Centrer les Boutons */
+}
+
+.Manage-Button{
+	width: 192px; /* Taille des boutons */
+	margin-top: 15px; /* Marge HAUT extérieue */
+}
+
+.marge-bottom{
+	padding-bottom: 35px;
+}
+
+.P_Com{
+	margin: 0px; /* Marge extérieue */
+}
+
+#tableForm{
+	table-layout: fixed; /* taille du tableau manuel */
+	width: 1000px; /* Taille total du tableau */
+}
+
+select#Depanneur, select#Departement, select#Service, select#Impact, select#Priorite, select#Droit, #DateProblemeInsert {
+	width: 215px; /* Longueur des listes déroulantes */
+	height: 30px; /* Hauteur des listes déroulantes */
+}
+
+#Categorie {
+	width: 430px; /* Longueur du champ Catégorie */
+	height: 30px; /* Hauteur du champ Catégorie */
+	border: 1px solid black; /* Epaisseur bordure */
+}
+
+#Description, #Table_Com, #Resolution{
+	margin: 0px; /* Marge extérieue */
+	padding: 3px; /*Marge intérieure */
+	border: 1px solid #999; /* Bodure pleine */
+	min-height: 100px; /* Hauteur Minimum */
+	width: 720px; /* Largeur */
+	background-color: white; /* Couleur de Fond */
+	resize : none; /* Interdit de redimensionner le textarea */
+}
+
+#Table_Com, #Table_Button{
+	width: 720px; /* Modifier la Largeur */
+}
+
+#Table-resetPassword {
+	width: 720px; /* Modifier la Largeur */
+	margin-top: 1.5rem;
+}
+
+#NumTicket, #LoginUtilisateur {
+	background-color: transparent; /* Aucun fond */
+	border: 0px; /* Pas de bordure */
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.2;
+	color: inherit;
+	font-size: 1.75rem; /* Taille police */
+	outline: 0;
+}
+
+#ImgRefresh{
+	margin-left: 50px;
+}
+
+#ImgRefresh:hover{
+	content: "Raffraichir la page";
+}
+
+#TdImgRefresh{
+	text-align: right;
+}
+
+#TdImgUpdate{
+	text-align: left;
+	vertical-align: top;
+}
+
+#id_Category {
+	display: none; /* Masquer l'input Catégorie */
+}
+
+.btn, .btn:hover, .btn:active, .btn:focus {
+	background-color: rgb(255, 215, 0);
+	border-color: black; /* Couleur de bordure */
+	color: black;
+}
+
+.Bouton-Category {
+	position: relative;
+	left: -2.2rem;
+	top: -1px;
+	width: 1.4rem;
+	height: 1.4rem;
+}
+
+.fa-server {
+	position: inherit;
+	top: -8px;
+	left: -6px;
+	color: black;
+}
+
+.dropdown-toggle{
+	color: black;
+	/*font-weight: bold;*/
+}
+
+.dropdown-toggle:hover{
+	color: black;
+}
+
+.dropdown-menu {
+	padding-left: 0.3rem;
+	padding-right: 0.5rem;
+	border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+/* SPECIAL : ROTATION des flèches */
+.dropdown-submenu a::after {
+	transform: rotate(-90deg);
+	position: absolute;
+	right: 6px;
+	top: .8em;
+}
+
+.Category-Label {
+	margin: 0px;
+	margin-left: 0.3rem;
+	display: inline;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+li {
+	margin-left: 15px; /* à adapter */
+}
+
+/* --------------------- */
+/* SPECIAL : ROTATION des flèches */
+/* Niveau 1 */
+li .dropdown-toggle:after {
+	transition: all 0.5s;
+}
+
+li.show > .dropdown-toggle:after {
+	transform: rotate(180deg);
+}
+/* sous-Niveaux suivants */
+li li.show > .dropdown-toggle:after {
+	transform: rotate(90deg);
+}

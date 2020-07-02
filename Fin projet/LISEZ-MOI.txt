@@ -1,0 +1,29 @@
+Bonjour Monsieur Rogeiro,
+
+Voici tout ce qui concernet la réalisation du projet MPTickets.
+
+Votre compte
+username: rogeiroa
+password: arogeiro
+
+Vous pouvez sans autre accèder sur le lien suivant
+afin de consulter le site depuis votre navigateur 
+https://84.72.82.215/MPTickets/index.php
+
+Le code source du site WEB se trouve dans le dossier "Fichier/WEB/MPTickets".
+
+Dans le dossier GitHub.zip, vous trouveriez notre endroit de travail :
+	- /Base de données: tout ce qui concerne la base de données (MCD, MLD).
+	- /Catégories: Les catégories des problèmes pour la création des tickets
+	- /Deposer par moodle: Les fichiers des semaines de 1 > 20.
+	- /Designes des Pages: Les design des pages pour notre site.
+	- /Diagrammes: Ici vous trouveriez l'arboressance des fichiers et le Nassi Schneiderman.
+	- /Directives: Tout ce qui est fichiers directives que vous avez envoyer pour la réalisation du projet.
+	- /Images: Les images que nous avons utiliés pour le projet.
+	- /Plan semaine + couleur.jpg: simplement une image pour nous trouver sur les semaines.
+
+
+Nos salutations les meilleures.
+
+Osama Shalhoub & Dylan Guiducci
+
